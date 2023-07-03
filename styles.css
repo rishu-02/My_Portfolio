@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Ysabeau+Office:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kalam&family=Ysabeau+Office:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(94, 88, 88);
+    /* border: 2px solid red; */
+    width: 360px;
+    font-family: 'Ysabeau Office', sans-serif;
+    height: 100vh;
+    
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav ul{
+    cursor: pointer;
+    
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px 0px;
+    
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: burlywood; */
+    width: 90vw;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    display: flex;
+    /* background-color: rgb(94, 186, 60); */
+    height: 111vh;
+    width: 80vw;
+    margin: -26px auto;
+    justify-content: space-around;
+
+}
+
+.devpic img{
+    width: 514px;
+
+    height: 111vh;
+}
+
+.devinfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+.hello{
+    font-size: 70px;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.name{
+font-weight: bold ;
+    font-size: 60px;
+    /* font-family: 'Caveat', cursive;; */
+    /* font-family: 'Caveat', cursive;*/
+     font-family: 'Kalam', cursive;
+}
+.about{
+    font-size: 45px ;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.buttons{
+    margin-top: 15px;
+}
+
+.buttons button{
+    padding: 18px;
+    border-radius: 16px;
+    margin: 2px 2px;
+    
+    color: white;
+    background-color: gray;
+    font-size: 15px;
+    cursor: pointer;
+    width: 188px;
+
+}
+.buttons button:hover{
+    background-color: black;
+    color: white;
+}
+
+.btnbtn-sm{
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 12px;
+    margin: 12px;
+    margin-left: 3px;
+    color: white;
+    background-color: rgb(29, 175, 186);
+    cursor: pointer;
+    padding: 12px;
+}
+
+.moreabout{
+    font-size: 29px;
+    font-family: 'Ysabeau Office', sans-serif;
+    margin: 12px 23px;
+}
+
+
+
+.contactform{
+    font-family: 'Ysabeau Office', sans-serif;
+    padding: 133px 33px;
+    
+}
+
+.contactform h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.contactform form div{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contactform form div input{
+    padding: 12px;
+    font-size: 11px;
+    border-radius: 23px;
+    
+    
+}
+.contactform form div label{
+    padding: 12px;
+    font-size: 23px;
+    
+    
+    
+}
+
+
+
+
+
+#emailHelp{
+    color: rgb(103, 103, 172);
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+h1{
+    margin: 22px;
+    text-decoration: underline;
+}
+
+.blogs{
+    margin: 18px;
+    padding: 12px;
+}
+
+.devinfo p{
+    margin: 12px 16px;
+}
